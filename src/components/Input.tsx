@@ -1,10 +1,10 @@
-interface ButtonProps {
+interface InputProps {
   title: string;
   disabled: boolean;
   count: number;
 }
 
-export default function Button({ title, disabled, count }: ButtonProps) {
+export default function Button({ title, disabled, count }: InputProps) {
   return (
     <>
       <div className='bg-slate-950'>
