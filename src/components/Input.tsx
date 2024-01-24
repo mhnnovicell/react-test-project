@@ -4,7 +4,7 @@ interface InputProps {
   count: number;
 }
 
-export default function Button({ title, disabled, count }: InputProps) {
+export default function Input({ title, disabled, count }: InputProps) {
   return (
     <>
       <div className='bg-slate-950'>
